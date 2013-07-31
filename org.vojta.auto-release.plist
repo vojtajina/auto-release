@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>org.vojta.auto-release</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/vojta/Code/scripts/cron.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>00</integer>
+        <key>Minute</key>
+        <integer>03</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/var/log/org.vojta.auto-release.log</string>
+    <key>StandardErrorPath</key>
+    <string>/var/log/org.vojta.auto-release_err.log</string>
+    <key>AbandonProcessGroup</key>
+    <true/>
+</dict>
+</plist>
